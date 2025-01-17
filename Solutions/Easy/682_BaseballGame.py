@@ -1,5 +1,3 @@
-from typing import List
-
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
         stack = []
@@ -15,4 +13,3 @@ class Solution:
                 stack.append(int(op))
 
         return sum(stack)
-                
